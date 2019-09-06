@@ -1,0 +1,29 @@
+{
+  "name": "node-cli",
+  "version": "1.0.0",
+  "description": "Node cli tool to configure process and check the memory & cpu usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "CLI"
+  ],
+  "author": "Tausif S",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^16.28.9",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.0",
+    "express": "^4.17.1",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
+    "simple-git": "^1.126.0",
+    "touch": "^3.1.0"
+  }
+}
