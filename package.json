@@ -1,15 +1,20 @@
 {
-  "name": "node-cli",
+  "name": "nodecli",
   "version": "1.0.0",
   "description": "Node cli tool to configure process and check the memory & cpu usage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
     "Nodejs",
     "CLI"
   ],
+  "preferGlobal": true,
+  "bin": {
+    "cli-process": "./bin/index.js"
+  },
   "author": "Tausif S",
   "license": "ISC",
   "dependencies": {
@@ -17,12 +22,18 @@
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
+    "colors": "^1.3.3",
+    "commander": "^3.0.1",
     "configstore": "^5.0.0",
     "express": "^4.17.1",
     "figlet": "^1.2.4",
     "inquirer": "^7.0.0",
+    "install": "^0.13.0",
     "lodash": "^4.17.15",
     "minimist": "^1.2.0",
+    "mongoose": "^5.6.13",
+    "npm": "^6.11.3",
+    "pidusage": "^2.0.17",
     "simple-git": "^1.126.0",
     "touch": "^3.1.0"
   }

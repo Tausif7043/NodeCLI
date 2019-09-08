@@ -1,0 +1,5 @@
+{
+    "APP_NAME": "CLI Process Manager",
+    "port": "4000",
+    "process_info": "./files/processinfo.json"
+}
