@@ -31,7 +31,7 @@
     "install": "^0.13.0",
     "lodash": "^4.17.15",
     "minimist": "^1.2.0",
-    "mongoose": "^5.6.13",
+    "mongoose": "^5.7.5",
     "npm": "^6.11.3",
     "pidusage": "^2.0.17",
     "simple-git": "^1.126.0",
